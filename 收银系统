@@ -13,7 +13,8 @@ int main()
 	double c = (b-a); 
 	if(c<0){
 		printf("金额不足，请补交%.2lf元\n",c=-c);
-	}else
+	}else{
 	printf("找零%.2lf元\n", c );
+	}
 	return 0; 
 }
