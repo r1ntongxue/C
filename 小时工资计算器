@@ -17,7 +17,7 @@ int main()
    			(hours-STANDARD) * (RATE * 1.5);
 	else
    		pay = hours * RATE;
-	printf("应付工资: %f\n", pay);
+	printf("应付工资: %.2f\n", pay);
 
 	return 0;
 }
