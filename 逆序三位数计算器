@@ -1,0 +1,17 @@
+#include <stdio.h>
+int main()
+{
+	int x=0;
+	int a=0;
+	int b=0;
+	int c=0;
+	printf("请输入三位正整数\n");
+	scanf("%d",&x);
+
+	a=x/100; 
+	b=x%100/10;
+	c=x%10;
+
+	printf("这三位数反过来是%d %d %d", c ,b ,a);
+	return 0;  
+}
